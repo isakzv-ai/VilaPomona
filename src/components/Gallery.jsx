@@ -61,10 +61,10 @@ const Gallery = () => {
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-charcoal mb-4">
             Gallery
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Experience the beauty and elegance of Villa Pomona through our curated collection of images
-            showcasing our pool, yoga studio, outdoor areas, and main villa.
-          </p>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Experience the authentic beauty and elegance of Villa Pomona through our curated collection of images
+              from the actual property, showcasing our historic villa, seasonal pool, private terraces, and luxurious accommodations.
+            </p>
         </div>
 
         {/* Masonry Grid */}
@@ -128,10 +128,19 @@ const Gallery = () => {
         {/* Image Source Note */}
         <div className="mt-12 text-center">
           <div className="bg-white rounded-lg p-6 max-w-2xl mx-auto shadow-sm">
-            <h3 className="font-semibold text-charcoal mb-2">🏨 Professional Photography</h3>
-            <p className="text-gray-600 text-sm">
-              All images are professionally taken from Villa Pomona&apos;s official website,
-              showcasing the authentic beauty and luxury of our boutique hotel.
+            <h3 className="font-semibold text-charcoal mb-2">🏨 Authentic Villa Pomona Images</h3>
+            <p className="text-gray-600 text-sm mb-3">
+              All images should be sourced from Villa Pomona's official channels to ensure authenticity.
+            </p>
+            <div className="text-left text-sm space-y-1">
+              <p><strong>📸 Where to find images:</strong></p>
+              <p>• Villa Pomona's Booking.com page</p>
+              <p>• Official Villa Pomona website (villapomona.si)</p>
+              <p>• Hotel Adora Bled website (sister property)</p>
+              <p>• Search: "Villa Pomona Bled" on Google Images</p>
+            </div>
+            <p className="text-gray-500 text-xs mt-3">
+              Replace placeholder images with high-resolution photos of the actual villa, pool, rooms, and grounds.
             </p>
           </div>
         </div>

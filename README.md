@@ -57,16 +57,37 @@ The build artifacts will be stored in the `dist/` directory.
 
 ## Customization Guide
 
-### Replacing Placeholder Images
+### Replacing Placeholder Images with Authentic Villa Pomona Photos
 
-The project includes placeholder images in the `assets/` folder. To replace with real photos:
+The project currently uses placeholder images. To showcase the real Villa Pomona, replace them with authentic photos from official sources:
 
-1. **Instagram Images**: Download high-quality images from your Instagram feed or use tools like Downloader for Instagram
-2. **Professional Photos**: Replace `placeholder-*.jpg` files in `assets/` with your actual hotel photos
-3. **Recommended Image Sizes**:
-   - Hero image: 1920x1080px (landscape)
-   - Gallery images: 800x600px minimum, maintain aspect ratio
-   - Room images: 600x400px
+#### 🏨 **Where to Find Authentic Villa Pomona Images:**
+
+1. **Villa Pomona's Booking.com Page**: Search for "Villa Pomona Bled" on Booking.com
+2. **Official Website**: villapomona.si (if available)
+3. **Sister Property**: Hotel Adora Bled website
+4. **Google Images**: Search "Villa Pomona Bled Slovenia" and filter for high-resolution images
+5. **Travel Sites**: TripAdvisor, Agoda, or other booking platforms
+
+#### 📸 **Image Replacement Guide:**
+
+**Current Structure:**
+```
+assets/
+├── images/
+│   ├── hero/
+│   │   └── hero-image.jpg (main villa exterior)
+│   └── gallery/
+│       ├── pool-image.jpg (pool area)
+│       ├── terrace-image.jpg (outdoor terrace)
+│       ├── yoga-studio.jpg (interior/spa area)
+│       └── outdoor-1.jpg & outdoor-2.jpg (garden/grounds)
+```
+
+**Recommended Image Types:**
+- Hero image: Main villa facade/building exterior (1920x1080px landscape)
+- Gallery images: Pool, terraces, interiors, gardens (800x600px minimum)
+- Room images: Individual room interiors and exteriors (600x400px)
 
 Update the `alt` text in `src/components/Gallery.jsx` to match your actual images.
 

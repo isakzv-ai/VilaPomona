@@ -28,6 +28,15 @@ const Rooms = () => {
       priceRange: '350+',
       image: '/assets/images/gallery/yoga-studio.jpg',
       alt: 'Master Suite with balcony and pool view'
+    },
+    {
+      id: 4,
+      name: 'Entire Villa (Whole House Rental)',
+      description: 'Rent the entire Villa Pomona for your exclusive use. Accommodates up to 8 persons with all rooms, pool house, and shared spaces.',
+      features: ['All 3 suites + Pool House', 'Private pool & garden', 'Up to 8 persons', 'Full villa exclusivity', 'Perfect for groups & events'],
+      priceRange: '1200+',
+      image: '/assets/images/hero/hero-image.jpg',
+      alt: 'Entire Villa Pomona for exclusive rental'
     }
   ]
 
@@ -44,7 +53,7 @@ const Rooms = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {rooms.map((room) => (
             <RoomCard key={room.id} room={room} />
           ))}
