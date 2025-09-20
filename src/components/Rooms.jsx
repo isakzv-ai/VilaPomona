@@ -8,7 +8,7 @@ const Rooms = () => {
       description: 'Spacious suite with stunning pool views, perfect for couples seeking luxury and relaxation.',
       features: ['King bed', 'Private terrace', 'Ensuite bathroom', '45 m²'],
       priceRange: '280-350',
-      image: '/assets/pool-image.jpg',
+      image: '/assets/images/gallery/pool-image.jpg',
       alt: 'King Suite with pool view and elegant furnishings'
     },
     {
@@ -17,7 +17,7 @@ const Rooms = () => {
       description: 'Comfortable and stylish room with garden views, ideal for business travelers and couples.',
       features: ['Queen bed', 'Garden view', '28 m²'],
       priceRange: '180-220',
-      image: '/assets/yoga-studio.jpg',
+      image: '/assets/images/gallery/yoga-studio.jpg',
       alt: 'Deluxe Double room with elegant interior'
     },
     {
@@ -26,7 +26,7 @@ const Rooms = () => {
       description: 'Entire villa accommodation perfect for families or groups, featuring private amenities.',
       features: ['Private pool', 'Living area', 'Family friendly'],
       priceRange: '450-600',
-      image: '/assets/hero-image.jpg',
+      image: '/assets/images/hero/hero-image.jpg',
       alt: 'Four-Bedroom Villa exterior with scenic surroundings'
     }
   ]

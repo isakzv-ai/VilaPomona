@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import heroImage from '../../assets/hero-image.jpg'
+import heroImage from '../../assets/images/hero/hero-image.jpg'
 
 const Hero = () => {
   const [checkIn, setCheckIn] = useState('')

@@ -5,42 +5,42 @@ const Gallery = () => {
 
   const images = [
     {
-      src: '/assets/hero-image.jpg',
+      src: '/assets/images/hero/hero-image.jpg',
       alt: 'Villa Pomona exterior with art-nouveau architecture and garden',
       className: 'col-span-1 row-span-2'
     },
     {
-      src: '/assets/pool-image.jpg',
+      src: '/assets/images/gallery/pool-image.jpg',
       alt: 'Villa Pomona swimming pool with mountain backdrop',
       className: 'col-span-1 row-span-1'
     },
     {
-      src: '/assets/yoga-studio.jpg',
+      src: '/assets/images/gallery/yoga-studio.jpg',
       alt: 'Villa Pomona yoga studio with elegant furnishings',
       className: 'col-span-1 row-span-1'
     },
     {
-      src: '/assets/outdoor-1.jpg',
+      src: '/assets/images/gallery/outdoor-1.jpg',
       alt: 'Villa Pomona outdoor area with garden and seating',
       className: 'col-span-1 row-span-2'
     },
     {
-      src: '/assets/outdoor-2.jpg',
+      src: '/assets/images/gallery/outdoor-2.jpg',
       alt: 'Villa Pomona outdoor terrace with mountain views',
       className: 'col-span-1 row-span-1'
     },
     {
-      src: '/assets/terrace-image.jpg',
+      src: '/assets/images/gallery/terrace-image.jpg',
       alt: 'Villa Pomona terrace with dining area',
       className: 'col-span-1 row-span-1'
     },
     {
-      src: '/assets/pool-image.jpg',
+      src: '/assets/images/gallery/pool-image.jpg',
       alt: 'Villa Pomona pool area with relaxation spaces',
       className: 'col-span-2 row-span-1'
     },
     {
-      src: '/assets/hero-image.jpg',
+      src: '/assets/images/hero/hero-image.jpg',
       alt: 'Villa Pomona main building with scenic surroundings',
       className: 'col-span-1 row-span-1'
     }

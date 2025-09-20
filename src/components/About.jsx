@@ -33,7 +33,7 @@ const About = () => {
           <div className="relative">
             <div className="aspect-[4/3] bg-sage-100 rounded-lg overflow-hidden">
               <img
-                src="/assets/placeholder-2.svg"
+                src="/assets/images/hero/hero-image.jpg"
                 alt="Villa Pomona historic facade and garden entrance"
                 className="w-full h-full object-cover"
                 loading="lazy"
