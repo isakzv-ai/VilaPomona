@@ -12,11 +12,17 @@ const About = () => {
               Villa Pomona is a charming art-nouveau boutique villa in the heart of Bled.
               Enjoy a peaceful garden, outdoor pool, and refined rooms—just minutes from Lake Bled and the castle.
             </p>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Originally known as Kajževina and owned by the Čop family until 1980, Villa Pomona
+              has been thoughtfully renovated into a luxury boutique hotel. Our intimate, 4-star
+              accommodation combines historic Art Nouveau architecture with modern comforts,
+              offering personalized service in a peaceful setting.
+            </p>
             <p className="text-gray-600 leading-relaxed mb-8">
-              Our family-run hotel combines historic elegance with modern comfort, offering
-              personalized service and attention to detail. Whether you&apos;re seeking a romantic
-              getaway, family vacation, or business retreat, Villa Pomona provides the perfect
-              base to explore Slovenia&apos;s most beautiful region.
+              Guests particularly love our outdoor seasonal pool, elegant décor, and quiet location
+              that&apos;s still walking distance to Bled&apos;s attractions. Whether you&apos;re seeking a
+              romantic escape or a relaxing retreat, Villa Pomona provides an authentic, boutique
+              experience in the heart of Slovenia&apos;s most beautiful region.
             </p>
 
             {/* Address */}

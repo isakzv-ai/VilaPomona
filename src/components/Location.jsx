@@ -17,14 +17,14 @@ const Location = () => {
           <div>
             <div className="bg-gray-200 rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2757.077656664608!2d14.105!3d46.3683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDYuMzY4MywxNC4xMDU!5e0!3m2!1sen!2s!4v1635000000000!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dO8H8rWb8W8W8&q=Črtomirova+ulica+2,+4260+Bled,+Slovenia&zoom=15"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Villa Pomona Location Map"
+                title="Villa Pomona Location Map - Črtomirova ulica 2, 4260 Bled, Slovenia"
                 className="w-full h-[400px]"
               ></iframe>
             </div>
@@ -32,8 +32,9 @@ const Location = () => {
             {/* Map Note */}
             <div className="mt-4 p-4 bg-sage-50 rounded-lg">
               <p className="text-sm text-gray-600">
-                <strong>Note:</strong> Replace the Google Maps embed URL with your actual location.
-                Get the embed code from Google Maps and replace <code>YOUR_GOOGLE_MAPS_EMBED_KEY</code> in the README.
+                <strong>Note:</strong> To enable the interactive map, get a Google Maps API key from the
+                <a href="https://console.cloud.google.com/google/maps-apis" className="text-sage-600 hover:underline" target="_blank" rel="noopener noreferrer"> Google Cloud Console</a>
+                and replace the placeholder API key in the embed URL.
               </p>
             </div>
           </div>
@@ -51,10 +52,10 @@ const Location = () => {
                 <div>4260 Bled, Slovenia</div>
                 <div className="pt-2">
                   <a
-                    href="tel:+3860000000"
+                    href="tel:+38651603858"
                     className="text-sage-600 hover:text-sage-700 font-medium"
                   >
-                    +386 0 000 000
+                    +386 51 603 858
                   </a>
                 </div>
                 <div>

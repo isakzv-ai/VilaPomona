@@ -267,8 +267,8 @@ Message: ${formData.message}
             <div className="space-y-2">
               <p className="text-gray-700">
                 <strong>Phone:</strong>{' '}
-                <a href="tel:+3860000000" className="text-sage-600 hover:text-sage-700">
-                  +386 0 000 000
+                <a href="tel:+38651603858" className="text-sage-600 hover:text-sage-700">
+                  +386 51 603 858
                 </a>
               </p>
               <p className="text-gray-700">

@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 import Navigation from './components/Navigation'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <>
+    <HelmetProvider>
       <Helmet>
         <title>Villa Pomona - Boutique Hotel in Bled, Slovenia</title>
         <meta name="description" content="Experience luxury at Villa Pomona, a charming art-nouveau boutique villa in the heart of Bled. Enjoy our peaceful garden, outdoor pool, and refined rooms just minutes from Lake Bled." />
@@ -33,7 +33,7 @@ function App() {
         <ContactForm />
         <Footer />
       </div>
-    </>
+    </HelmetProvider>
   )
 }
 

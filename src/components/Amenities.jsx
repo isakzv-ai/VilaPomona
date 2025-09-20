@@ -8,12 +8,12 @@ const Amenities = () => {
     {
       name: 'Spa & Wellness',
       icon: '🧖',
-      description: 'Full-service spa with massages, treatments, and relaxation areas'
+      description: 'Spa lounge and wellness areas for ultimate relaxation'
     },
     {
       name: 'Sauna',
       icon: '🔥',
-      description: 'Traditional Finnish sauna for ultimate relaxation'
+      description: 'Sauna facilities for your comfort and relaxation'
     },
     {
       name: 'Free Parking',
@@ -28,7 +28,7 @@ const Amenities = () => {
     {
       name: 'Breakfast',
       icon: '🥐',
-      description: 'Daily continental breakfast served in our garden pavilion'
+      description: 'Excellent breakfast service with local and fresh options'
     },
     {
       name: 'Non-smoking Rooms',

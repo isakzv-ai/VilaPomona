@@ -4,30 +4,30 @@ const Rooms = () => {
   const rooms = [
     {
       id: 1,
-      name: 'King Suite with Pool View',
-      description: 'Spacious suite with stunning pool views, perfect for couples seeking luxury and relaxation.',
-      features: ['King bed', 'Private terrace', 'Ensuite bathroom', '45 m²'],
-      priceRange: '280-350',
+      name: 'Pool House',
+      description: 'Private and secluded accommodation with its own terrace, perfect for romantic stays and those seeking maximum privacy.',
+      features: ['Private terrace', 'Secluded location', 'Luxury furnishings', 'Starting from €390/night'],
+      priceRange: '390+',
       image: '/assets/images/gallery/pool-image.jpg',
-      alt: 'King Suite with pool view and elegant furnishings'
+      alt: 'Pool House with private terrace and luxurious setting'
     },
     {
       id: 2,
-      name: 'Deluxe Double',
-      description: 'Comfortable and stylish room with garden views, ideal for business travelers and couples.',
-      features: ['Queen bed', 'Garden view', '28 m²'],
-      priceRange: '180-220',
-      image: '/assets/images/gallery/yoga-studio.jpg',
-      alt: 'Deluxe Double room with elegant interior'
+      name: 'Superior Suite with Terrace & Pool View',
+      description: 'Elegant suite offering stunning pool views from a private terrace, combining modern comfort with historic charm.',
+      features: ['Private terrace', 'Pool view', 'Ensuite bathroom', 'Luxury furnishings', 'Starting from €340/night'],
+      priceRange: '340+',
+      image: '/assets/images/gallery/terrace-image.jpg',
+      alt: 'Superior Suite with terrace and pool view'
     },
     {
       id: 3,
-      name: 'Four-Bedroom Villa',
-      description: 'Entire villa accommodation perfect for families or groups, featuring private amenities.',
-      features: ['Private pool', 'Living area', 'Family friendly'],
-      priceRange: '450-600',
-      image: '/assets/images/hero/hero-image.jpg',
-      alt: 'Four-Bedroom Villa exterior with scenic surroundings'
+      name: 'Master Suite with Balcony & Pool View',
+      description: 'Spacious master suite featuring a balcony with pool views, approximately 50 m² of luxurious living space.',
+      features: ['Private balcony', 'Pool view', '50 m²', 'Master bedroom', 'Ensuite bathroom'],
+      priceRange: '350+',
+      image: '/assets/images/gallery/yoga-studio.jpg',
+      alt: 'Master Suite with balcony and pool view'
     }
   ]
 
